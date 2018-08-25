@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>BookDataForm</servlet-name>
+<servlet-class>Test.BookDataForm</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>BookDataForm</servlet-name>
+<url-pattern>/xyz</url-pattern>
+</servlet-mapping>
+</web-app>
